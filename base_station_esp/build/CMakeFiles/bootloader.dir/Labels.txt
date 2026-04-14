@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/CMakeFiles/bootloader
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/CMakeFiles/bootloader.rule
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/CMakeFiles/bootloader-complete.rule
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+Q:/Documents/Claude/ESP32 Color Code/base_station_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

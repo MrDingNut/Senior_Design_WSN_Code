@@ -1,0 +1,25 @@
+Here's what needs to be installed:
+For the ESP side of things
+- ESP-IDF v5.5
+For the Python side of things
+- Python (make sure you check "Add python.exe to PATH" during install
+- Run 
+- - python -m pip install pyserial matplotlib
+
+Once you're ready to flash the code:
+# Using the ESP-IDF PowerShell, move to the directory containing the code
+cd "desired directory"
+
+# First time only 
+idf.py set-target esp32s3
+idf.py build
+
+# To flash
+idf.py -p COMx flash
+or
+idf.py -p COMx flash monitor
+- x is the COM port number the ESP is using
+- It's found in Device Manager under "Ports (COM & LPT)"
+
+# To monitor the port
+idf.py monitor -p COMx
