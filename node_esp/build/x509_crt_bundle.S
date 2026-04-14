@@ -1,4 +1,4 @@
-/* * Data converted from Q:/Documents/Claude/ESP32 Color Code/node_esp/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from Q:/Documents/ESP32 WSN Code/node_esp/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

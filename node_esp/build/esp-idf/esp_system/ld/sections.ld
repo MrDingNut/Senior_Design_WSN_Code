@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: Q:\Documents\Claude\ESP32 Color Code\node_esp\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: Q:\Documents\ESP32 WSN Code\node_esp\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

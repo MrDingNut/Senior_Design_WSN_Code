@@ -1,2 +1,2 @@
-source Q:/Documents/Claude/ESP32 Color Code/node_esp/build/gdbinit/symbols
-source Q:/Documents/Claude/ESP32 Color Code/node_esp/build/gdbinit/connect
+source Q:/Documents/ESP32 WSN Code/node_esp/build/gdbinit/symbols
+source Q:/Documents/ESP32 WSN Code/node_esp/build/gdbinit/connect

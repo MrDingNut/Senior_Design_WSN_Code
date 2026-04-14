@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/CMakeFiles/bootloader
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/CMakeFiles/bootloader.rule
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/CMakeFiles/bootloader-complete.rule
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/CMakeFiles/bootloader
+Q:/Documents/ESP32 WSN Code/node_esp/build/CMakeFiles/bootloader.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/CMakeFiles/bootloader-complete.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

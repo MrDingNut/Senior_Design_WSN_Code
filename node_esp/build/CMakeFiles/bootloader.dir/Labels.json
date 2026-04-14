@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/CMakeFiles/bootloader"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/CMakeFiles/bootloader.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

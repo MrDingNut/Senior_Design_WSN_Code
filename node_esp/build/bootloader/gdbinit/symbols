@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader/bootloader.elf
+file Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader/bootloader.elf

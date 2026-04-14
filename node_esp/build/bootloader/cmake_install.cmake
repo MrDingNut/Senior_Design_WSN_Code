@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader/esp-idf/cmake_install.cmake")
+  include("Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

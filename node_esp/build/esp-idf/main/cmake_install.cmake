@@ -1,4 +1,4 @@
-# Install script for directory: Q:/Documents/Claude/ESP32 Color Code/node_esp/main
+# Install script for directory: Q:/Documents/ESP32 WSN Code/node_esp/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

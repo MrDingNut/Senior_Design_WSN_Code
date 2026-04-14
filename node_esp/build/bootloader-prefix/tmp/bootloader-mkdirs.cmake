@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Espressif/frameworks/esp-idf-v5.5.2/components/bootloader/subp
   file(MAKE_DIRECTORY "C:/Espressif/frameworks/esp-idf-v5.5.2/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader"
-  "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix"
-  "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/tmp"
-  "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp"
-  "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src"
-  "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp"
+  "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader"
+  "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix"
+  "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/tmp"
+  "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp"
+  "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src"
+  "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "Q:/Documents/Claude/ESP32 Color Code/node_esp/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "Q:/Documents/ESP32 WSN Code/node_esp/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
