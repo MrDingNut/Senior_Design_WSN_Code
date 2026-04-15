@@ -1,6 +1,6 @@
 # **TEAM C Wireless Sensor Node Code**
 
-## Here's what needs to be installed
+## Additional tools and software you will need
 - ESP-IDF v5.5
 - Python
 
