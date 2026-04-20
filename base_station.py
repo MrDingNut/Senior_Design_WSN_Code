@@ -188,7 +188,7 @@ thread = threading.Thread(target=serial_reader, daemon=True)
 thread.start()
 
 # --- Build the UI ---
-fig, axes = plt.subplots(4, 2, figsize=(13, 11))
+fig, axes = plt.subplots(4, 2, figsize=(13, 12))
 fig.suptitle('Soil Sensor Monitor', fontsize=14, fontweight='bold')
 fig.subplots_adjust(bottom=0.1)  # Reserve space at bottom for buttons
 
@@ -205,7 +205,21 @@ for i, (key, label, unit, color) in enumerate(PARAMS):
     ax.tick_params(axis='y', labelsize=8)
     plot_lines.append((ax, line, key))
 
-plt.tight_layout(rect=[0, 0.08, 1, 1])
+plt.tight_layout(rect=[0, 0.08, 1, 0.91])
+
+# --- Latest-values strip ---
+# One text object per parameter, arranged evenly across the top of the figure
+latest_texts = {}
+n_params   = len(PARAMS)
+for i, (key, label, unit, color) in enumerate(PARAMS):
+    x = (i + 0.5) / n_params
+    # Label line
+    fig.text(x, 0.955, label, ha='center', va='bottom',
+             fontsize=8, color='grey')
+    # Value line (updated each frame)
+    txt = fig.text(x, 0.935, '—', ha='center', va='bottom',
+                   fontsize=11, fontweight='bold', color=color)
+    latest_texts[key] = (txt, unit)
 
 # --- Time range buttons ---
 COLOR_ACTIVE   = '#4a90d9'
@@ -276,6 +290,14 @@ def update(_frame):
         ax.xaxis.set_major_formatter(fmt)
         ax.relim()
         ax.autoscale_view()
+
+    # Update latest-value strip using the most recent reading
+    for key, (txt, unit) in latest_texts.items():
+        latest = v_all[key][-1] if v_all[key] else None
+        if latest is not None:
+            txt.set_text(f'{latest:.2f} {unit}' if unit else f'{latest:.2f}')
+        else:
+            txt.set_text('—')
 
 ani = animation.FuncAnimation(fig, update, interval=500, cache_frame_data=False)
 

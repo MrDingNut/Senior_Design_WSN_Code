@@ -1,0 +1,352 @@
+Command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.5.2\tools/idf_monitor.py -p COM6 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 Q:\Documents\ESP32 WSN Code\node_esp\build\node_esp.elf Q:\Documents\ESP32 WSN Code\node_esp\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Espressif\frameworks\esp-idf-v5.5.2\tools\idf.py' '-p' 'COM6'
+ESP-ROM:esp32s3-20210327
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.2 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Apr 19 2026 15:25:29[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3c090020 size=1ec5ch (126044) map[0m
+[0;32mI (109) esp_image: segment 1: paddr=0002ec84 vaddr=3fc9b700 size=01394h (  5012) load[0m
+[0;32mI (110) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=8d828h (579624) map[0m
+[0;32mI (215) esp_image: segment 3: paddr=000bd850 vaddr=3fc9ca94 size=03698h ( 13976) load[0m
+[0;32mI (218) esp_image: segment 4: paddr=000c0ef0 vaddr=40374000 size=176bch ( 95932) load[0m
+[0;32mI (239) esp_image: segment 5: paddr=000d85b4 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (249) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (249) boot: Disabling RNG early entropy source...[0m
+[0;32mI (259) cpu_start: Multicore app[0m
+[0;32mI (267) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (268) cpu_start: Pro cpu start user code[0m
+[0;32mI (268) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (270) app_init: Application information:[0m
+[0;32mI (274) app_init: Project name:     node_esp[0m
+[0;32mI (278) app_init: App version:      f891e20-dirty[0m
+[0;32mI (282) app_init: Compile time:     Apr 19 2026 15:25:24[0m
+[0;32mI (287) app_init: ELF file SHA256:  32dc76431...[0m
+[0;32mI (291) app_init: ESP-IDF:          v5.5.2[0m
+[0;32mI (295) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (299) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (303) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (307) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (313) heap_init: At 3FCA3E88 len 00045888 (278 KiB): RAM[0m
+[0;32mI (318) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (323) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (329) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (335) spi_flash: detected chip: boya[0m
+[0;32mI (337) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (353) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (359) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (366) main_task: Started on CPU0[0m
+[0;32mI (386) main_task: Calling app_main()[0m
+[0;32mI (416) pp: pp rom version: e7ae62f[0m
+[0;32mI (416) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (426) wifi:wifi driver task: 3fcedb0c, prio:23, stack:6656, core=0[0m
+[0;32mI (436) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (436) wifi:wifi certification version: v7.0[0m
+[0;32mI (436) wifi:config NVS flash: enabled[0m
+[0;32mI (436) wifi:config nano formatting: disabled[0m
+[0;32mI (436) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (446) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (446) wifi:Init management short buffer num: 32[0m
+[0;32mI (456) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (456) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (466) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (466) wifi:Init static rx buffer num: 10[0m
+[0;32mI (466) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (476) wifi_init: rx ba win: 6[0m
+[0;32mI (476) wifi_init: accept mbox: 6[0m
+[0;32mI (476) wifi_init: tcpip mbox: 32[0m
+[0;32mI (486) wifi_init: udp mbox: 6[0m
+[0;32mI (486) wifi_init: tcp mbox: 6[0m
+[0;32mI (486) wifi_init: tcp tx win: 5760[0m
+[0;32mI (486) wifi_init: tcp rx win: 5760[0m
+[0;32mI (496) wifi_init: tcp mss: 1440[0m
+[0;32mI (496) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (496) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (616) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (656) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (726) wifi:mode : softAP (10:20:ba:49:ce:d1)[0m
+[0;32mI (726) wifi:Total power save buffer number: 16[0m
+[0;32mI (726) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (726) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (736) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (736) soil_node: AP started: SSID=SoilSensor  PW=soildata1  IP=192.168.4.1[0m
+[0;32mI (746) ESPNOW: espnow [version: 2.0] init[0m
+[0;32mI (756) soil_node: HTTP server started on http://192.168.4.1[0m
+[0;32mI (756) soil_node: Ready – polling every 10 s[0m
+[0;33mW (1096) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1096) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (11426) soil_node: Failed to read register 0x0006[0m
+[1;31mE (11426) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (21756) soil_node: Failed to read register 0x0006[0m
+[1;31mE (21756) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (32086) soil_node: Failed to read register 0x0006[0m
+[1;31mE (32086) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (42416) soil_node: Failed to read register 0x0006[0m
+[1;31mE (42416) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (52746) soil_node: Failed to read register 0x0006[0m
+[1;31mE (52746) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (63076) soil_node: Failed to read register 0x0006[0m
+[1;31mE (63076) soil_node: Sensor read failed, skipping this cycle[0m
+[0;32mI (68696) wifi:new:<1,0>, old:<1,0>, ap:<1,0>, sta:<255,255>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (68696) wifi:station: 96:7f:0e:01:19:64 join, AID=1, bgn, 20[0m
+[0;32mI (69236) wifi:<ba-add>idx:2 (ifx:1, 96:7f:0e:01:19:64), tid:0, ssn:1361, winSize:64[0m
+[0;32mI (69846) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (73336) wifi:<ba-add>idx:3 (ifx:1, 96:7f:0e:01:19:64), tid:6, ssn:1003, winSize:64[0m
+[0;33mW (73406) soil_node: Failed to read register 0x0006[0m
+[1;31mE (73406) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (83736) soil_node: Failed to read register 0x0006[0m
+[1;31mE (83736) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (94066) soil_node: Failed to read register 0x0006[0m
+[1;31mE (94066) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (104396) soil_node: Failed to read register 0x0006[0m
+[1;31mE (104396) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (109696) httpd_uri: httpd_uri: URI '/favicon.ico' not found[0m
+[0;33mW (109696) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;33mW (114726) soil_node: Failed to read register 0x0006[0m
+[1;31mE (114726) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (117836) httpd_txrx: httpd_sock_err: error in recv : 104[0m
+[0;33mW (125056) soil_node: Failed to read register 0x0006[0m
+[1;31mE (125056) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (135386) soil_node: Failed to read register 0x0006[0m
+[1;31mE (135386) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (145716) soil_node: Failed to read register 0x0006[0m
+[1;31mE (145716) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (145746) httpd_txrx: httpd_sock_err: error in recv : 104[0m
+[0;33mW (156046) soil_node: Failed to read register 0x0006[0m
+[1;31mE (156046) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (166376) soil_node: Failed to read register 0x0006[0m
+[1;31mE (166376) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (176706) soil_node: Failed to read register 0x0006[0m
+[1;31mE (176706) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (187036) soil_node: Failed to read register 0x0006[0m
+[1;31mE (187036) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (197366) soil_node: Failed to read register 0x0006[0m
+[1;31mE (197366) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (207696) soil_node: Failed to read register 0x0006[0m
+[1;31mE (207696) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (218026) soil_node: Failed to read register 0x0006[0m
+[1;31mE (218026) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (228356) soil_node: Failed to read register 0x0006[0m
+[1;31mE (228356) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (238686) soil_node: Failed to read register 0x0006[0m
+[1;31mE (238686) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (249016) soil_node: Failed to read register 0x0006[0m
+[1;31mE (249016) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (259346) soil_node: Failed to read register 0x0006[0m
+[1;31mE (259346) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (269676) soil_node: Failed to read register 0x0006[0m
+[1;31mE (269676) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (280006) soil_node: Failed to read register 0x0006[0m
+[1;31mE (280006) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (290336) soil_node: Failed to read register 0x0006[0m
+[1;31mE (290336) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (300666) soil_node: Failed to read register 0x0006[0m
+[1;31mE (300666) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (310996) soil_node: Failed to read register 0x0006[0m
+[1;31mE (310996) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (321326) soil_node: Failed to read register 0x0006[0m
+[1;31mE (321326) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (331656) soil_node: Failed to read register 0x0006[0m
+[1;31mE (331656) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (341986) soil_node: Failed to read register 0x0006[0m
+[1;31mE (341986) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (352316) soil_node: Failed to read register 0x0006[0m
+[1;31mE (352316) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (362646) soil_node: Failed to read register 0x0006[0m
+[1;31mE (362646) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (372976) soil_node: Failed to read register 0x0006[0m
+[1;31mE (372976) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (383306) soil_node: Failed to read register 0x0006[0m
+[1;31mE (383306) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (393636) soil_node: Failed to read register 0x0006[0m
+[1;31mE (393636) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (403966) soil_node: Failed to read register 0x0006[0m
+[1;31mE (403966) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (414296) soil_node: Failed to read register 0x0006[0m
+[1;31mE (414296) soil_node: Sensor read failed, skipping this cycle[0m
+[0;32mI (419506) wifi:station: 96:7f:0e:01:19:64 leave, AID = 1, reason = 8, bss_flags is 691299, bss:0x3fcb4698[0m
+[0;32mI (419506) wifi:new:<1,0>, old:<1,0>, ap:<1,0>, sta:<255,255>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (419506) wifi:<ba-del>idx:2, tid:0[0m
+[0;32mI (419506) wifi:<ba-del>idx:3, tid:6[0m
+[0;32mI (419516) wifi:new:<1,0>, old:<1,0>, ap:<1,0>, sta:<255,255>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (424626) soil_node: Failed to read register 0x0006[0m
+[1;31mE (424626) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (434956) soil_node: Failed to read register 0x0006[0m
+[1;31mE (434956) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (445286) soil_node: Failed to read register 0x0006[0m
+[1;31mE (445286) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (455616) soil_node: Failed to read register 0x0006[0m
+[1;31mE (455616) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (465946) soil_node: Failed to read register 0x0006[0m
+[1;31mE (465946) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (476276) soil_node: Failed to read register 0x0006[0m
+[1;31mE (476276) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (486606) soil_node: Failed to read register 0x0006[0m
+[1;31mE (486606) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (496936) soil_node: Failed to read register 0x0006[0m
+[1;31mE (496936) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (507266) soil_node: Failed to read register 0x0006[0m
+[1;31mE (507266) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (517596) soil_node: Failed to read register 0x0006[0m
+[1;31mE (517596) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (527926) soil_node: Failed to read register 0x0006[0m
+[1;31mE (527926) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (538256) soil_node: Failed to read register 0x0006[0m
+[1;31mE (538256) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (548586) soil_node: Failed to read register 0x0006[0m
+[1;31mE (548586) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (558916) soil_node: Failed to read register 0x0006[0m
+[1;31mE (558916) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (569246) soil_node: Failed to read register 0x0006[0m
+[1;31mE (569246) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (579576) soil_node: Failed to read register 0x0006[0m
+[1;31mE (579576) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (589906) soil_node: Failed to read register 0x0006[0m
+[1;31mE (589906) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (600236) soil_node: Failed to read register 0x0006[0m
+[1;31mE (600236) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (610566) soil_node: Failed to read register 0x0006[0m
+[1;31mE (610566) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (620896) soil_node: Failed to read register 0x0006[0m
+[1;31mE (620896) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (631226) soil_node: Failed to read register 0x0006[0m
+[1;31mE (631226) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (641556) soil_node: Failed to read register 0x0006[0m
+[1;31mE (641556) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (651886) soil_node: Failed to read register 0x0006[0m
+[1;31mE (651886) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (662216) soil_node: Failed to read register 0x0006[0m
+[1;31mE (662216) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (672546) soil_node: Failed to read register 0x0006[0m
+[1;31mE (672546) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (682876) soil_node: Failed to read register 0x0006[0m
+[1;31mE (682876) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (693206) soil_node: Failed to read register 0x0006[0m
+[1;31mE (693206) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (703536) soil_node: Failed to read register 0x0006[0m
+[1;31mE (703536) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (713866) soil_node: Failed to read register 0x0006[0m
+[1;31mE (713866) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (724196) soil_node: Failed to read register 0x0006[0m
+[1;31mE (724196) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (734526) soil_node: Failed to read register 0x0006[0m
+[1;31mE (734526) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (744856) soil_node: Failed to read register 0x0006[0m
+[1;31mE (744856) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (755186) soil_node: Failed to read register 0x0006[0m
+[1;31mE (755186) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (765516) soil_node: Failed to read register 0x0006[0m
+[1;31mE (765516) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (775846) soil_node: Failed to read register 0x0006[0m
+[1;31mE (775846) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (786176) soil_node: Failed to read register 0x0006[0m
+[1;31mE (786176) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (796506) soil_node: Failed to read register 0x0006[0m
+[1;31mE (796506) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (806836) soil_node: Failed to read register 0x0006[0m
+[1;31mE (806836) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (817166) soil_node: Failed to read register 0x0006[0m
+[1;31mE (817166) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (827496) soil_node: Failed to read register 0x0006[0m
+[1;31mE (827496) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (837826) soil_node: Failed to read register 0x0006[0m
+[1;31mE (837826) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (848156) soil_node: Failed to read register 0x0006[0m
+[1;31mE (848156) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (858486) soil_node: Failed to read register 0x0006[0m
+[1;31mE (858486) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (868816) soil_node: Failed to read register 0x0006[0m
+[1;31mE (868816) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (879146) soil_node: Failed to read register 0x0006[0m
+[1;31mE (879146) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (889476) soil_node: Failed to read register 0x0006[0m
+[1;31mE (889476) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (899806) soil_node: Failed to read register 0x0006[0m
+[1;31mE (899806) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (910136) soil_node: Failed to read register 0x0006[0m
+[1;31mE (910136) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (920466) soil_node: Failed to read register 0x0006[0m
+[1;31mE (920466) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (930796) soil_node: Failed to read register 0x0006[0m
+[1;31mE (930796) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (941126) soil_node: Failed to read register 0x0006[0m
+[1;31mE (941126) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (951456) soil_node: Failed to read register 0x0006[0m
+[1;31mE (951456) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (961786) soil_node: Failed to read register 0x0006[0m
+[1;31mE (961786) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (972116) soil_node: Failed to read register 0x0006[0m
+[1;31mE (972116) soil_node: Sensor read failed, skipping this cycle[0m
+[0;32mI (974226) wifi:new:<1,0>, old:<1,0>, ap:<1,0>, sta:<255,255>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (974226) wifi:station: 96:7f:0e:01:19:64 join, AID=1, bgn, 20[0m
+[0;32mI (974616) wifi:<ba-add>idx:2 (ifx:1, 96:7f:0e:01:19:64), tid:0, ssn:2896, winSize:64[0m
+[0;32mI (975036) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (975246) wifi:<ba-add>idx:3 (ifx:1, 96:7f:0e:01:19:64), tid:6, ssn:2682, winSize:64[0m
+[0;33mW (982446) soil_node: Failed to read register 0x0006[0m
+[1;31mE (982446) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (992776) soil_node: Failed to read register 0x0006[0m
+[1;31mE (992776) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1003106) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1003106) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1013436) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1013436) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1023766) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1023766) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1034096) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1034096) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1044426) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1044426) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1050726) httpd_txrx: httpd_sock_err: error in recv : 104[0m
+[0;33mW (1050726) httpd_txrx: httpd_sock_err: error in recv : 104[0m
+[0;33mW (1054756) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1054756) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1065086) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1065086) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1075416) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1075416) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1085746) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1085746) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1096076) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1096076) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1106406) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1106406) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1116736) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1116736) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1127066) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1127066) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1137396) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1137396) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1147726) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1147726) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1158056) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1158056) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1168386) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1168386) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1178716) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1178716) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1189046) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1189046) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1199376) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1199376) soil_node: Sensor read failed, skipping this cycle[0m
+[0;33mW (1209706) soil_node: Failed to read register 0x0006[0m
+[1;31mE (1209706) soil_node: Sensor read failed, skipping this cycle[0m
