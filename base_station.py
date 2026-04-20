@@ -31,6 +31,21 @@ PARAMS = [
     ('k',        'Potassium (K)',       'mg/kg', 'tab:pink'),
 ]
 
+# Normal ranges (min, max) per parameter — same order as PARAMS.
+# Moisture/pH thresholds from project report; others from sensor spec.
+NORMAL_RANGES = {
+    'moisture': (20,   100),
+    'ph':       (4.0,  7.5),
+    'ec':       (0,    3000),
+    'temp':     (5,    40),
+    'n':        (0,    1999),
+    'p':        (0,    1999),
+    'k':        (0,    1999),
+}
+
+COLOR_IN_RANGE  = '#1a7a1a'
+COLOR_OUT_RANGE = '#cc0000'
+
 # (label, timedelta or None for all time)
 TIME_RANGES = [
     ('24h',      timedelta(hours=24)),
@@ -296,8 +311,11 @@ def update(_frame):
         latest = v_all[key][-1] if v_all[key] else None
         if latest is not None:
             txt.set_text(f'{latest:.2f} {unit}' if unit else f'{latest:.2f}')
+            lo, hi = NORMAL_RANGES[key]
+            txt.set_color(COLOR_IN_RANGE if lo <= latest <= hi else COLOR_OUT_RANGE)
         else:
             txt.set_text('—')
+            txt.set_color('gray')
 
 ani = animation.FuncAnimation(fig, update, interval=500, cache_frame_data=False)
 
